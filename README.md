@@ -1,10 +1,9 @@
 # IMDb Hollywood Actors Explorer
 
-IMDb Hollywood Actors Explorer is a Python data-scraping and SQLite project for
-exploring filmographies and awards for the 50 actors and actresses in the
-project's IMDb list. A Jupyter notebook collects and normalises the data; a
-local SQLite database stores it; and a terminal application provides a simple
-interactive way to query it.
+IMDb Hollywood Actors Explorer is an applied data science project developed in
+Python. It demonstrates a complete workflow for collecting, storing, and
+exploring information about movies and awards for the 50 actors and actresses
+included in the IMDb list used by the project.
 
 > This project is an educational example of web scraping, relational data
 > modelling, and parameterised SQL queries. IMDb is a trademark of IMDb.com,
@@ -12,6 +11,11 @@ interactive way to query it.
 > IMDb data export.
 
 ## What the project does
+
+A Jupyter notebook uses web scraping to collect and organise the data. The
+results are stored in a local SQLite database, which is then queried by an
+interactive terminal application. Users can select an actor or actress and
+explore their biography, filmography, genres, ratings, and awards.
 
 After selecting an actor or actress by ranking or name, the terminal program
 offers six views:
