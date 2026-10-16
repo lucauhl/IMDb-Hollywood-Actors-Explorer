@@ -34,7 +34,7 @@ exit.
 
 The project consists of three components:
 
-![Project components](attachments/diagrams/components.png)
+![Project components](attachments/diagrams/components_light.png)
 
 1. **Web Scraper** - [`webscraper.ipynb`](webscraper.ipynb) collects
    information about the actors, their movies, genres, and awards. It populates
@@ -106,7 +106,7 @@ or update the database path in the source.
 
 ## Control Flow
 
-![Application flowchart](attachments/diagrams/flowchart.png)
+![Application flowchart](attachments/diagrams/flowchart_light.png)
 
 ## Example results
 
@@ -174,7 +174,9 @@ their rating, genre, and year.
 └── attachments
     ├── diagrams
     │   ├── components.png
+    │   ├── components_light.png
     │   ├── flowchart.png
+    │   ├── flowchart_light.png
     │   └── imdb_entity_relationship_model.png
     └── screenshots
 ```
